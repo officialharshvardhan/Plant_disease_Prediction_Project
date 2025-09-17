@@ -1,0 +1,136 @@
+.signup{
+    align-items: center;
+    background: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    margin-top:100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.signup h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.signup input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.signup button{
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.signup button:hover{
+    background-color: #45a049;
+}
+.signup p{
+    text-align: center;
+}
+.signup a{
+    color: #4CAF50;
+    text-decoration: none;
+}
+.signup a:hover{
+    text-decoration: underline;
+}
+.dashboard {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    background-image: url("bgPlants.png");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: rgb(71, 70, 70); /* optional: better contrast */
+    z-index: 1;
+    overflow: hidden;
+}
+
+.dashboard::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* fade effect (adjust 0.4 for more/less) */
+    border-radius: 8px; /* match parent */
+    z-index: -1;
+}
+
+.dashboard input[type="file"]{
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    width: 300px;   
+    max-width: 80%;
+    transition: background-color 0.3s;
+}
+.dashboard input[type="file"]:hover{
+    background-color: #e0e0e0;
+}
+.dashboard button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+.dashboard button:hover{
+    background-color: #45a049;
+}
+.dashboard h3{
+    color: #333;
+    font-size: 16px;
+    margin-top: 20px;
+    word-wrap: break-word;
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 1.5;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.dashboard p{
+    color: #555;
+    font-size: 16px;
+    margin-top: 10px;
+    word-wrap: break-word;
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 1.5;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.heading{
+    color: #f9fdfb;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
